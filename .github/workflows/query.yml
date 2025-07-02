@@ -3,7 +3,7 @@ name: Query Supabase
 on:
   schedule:
     - cron: '*/30 * * * *'  # každých 30 minut
-  workflow_dispatch:        # umožní ruční spuštění
+  #workflow_dispatch:        # umožní ruční spuštění
 
 jobs:
   query:
